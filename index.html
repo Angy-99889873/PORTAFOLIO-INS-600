@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portafolio Personal</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-white">
+
+  <header class="bg-slate-900 p-5">
+    <nav class="max-w-6xl mx-auto flex flex-wrap justify-between items-center gap-4">
+      <h1 class="text-2xl font-black text-cyan-400">Mi Portafolio</h1>
+      <div class="space-x-4">
+        <a href="#inicio" class="hover:text-cyan-400">Inicio</a>
+        <a href="#sobre-mi" class="hover:text-cyan-400">Sobre mí</a>
+        <a href="#habilidades" class="hover:text-cyan-400">Habilidades</a>
+        <a href="#proyectos" class="hover:text-cyan-400">Proyectos</a>
+        <a href="#contacto" class="hover:text-cyan-400">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <section id="inicio" class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="text-cyan-400 font-bold uppercase tracking-widest">Bienvenido a mi portafolio</p>
+      <h2 class="text-5xl md:text-6xl font-black my-5">
+        Hola, soy <span class="text-cyan-400">Tu Nombre</span>
+      </h2>
+      <h3 class="text-2xl text-gray-300 mb-5">Estudiante de Informática</h3>
+      <p class="text-gray-400 leading-relaxed mb-8">
+        Me interesa la tecnología, el diseño web y el desarrollo
+        de soluciones digitales creativas y modernas.
+      </p>
+      <a href="#proyectos"
+        class="inline-block bg-cyan-400 text-slate-950 px-6 py-3 rounded-lg font-bold hover:bg-cyan-300">
+        Ver mis proyectos
+      </a>
+    </div>
+
+    <div>
+      <img class="w-full h-80 object-cover rounded-2xl shadow-xl"
+        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+        alt="Computadora y espacio de trabajo">
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="bg-slate-900 py-16 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-black text-cyan-400 mb-5">Sobre mí</h2>
+      <p class="text-gray-300 leading-relaxed">
+        Soy estudiante y me gusta aprender sobre programación,
+        tecnología y diseño de páginas web. Busco mejorar mis
+        conocimientos mediante prácticas y proyectos personales.
+        Mi objetivo es desarrollar aplicaciones útiles y fáciles de usar.
+      </p>
+    </div>
+  </section>
+
+  <section id="habilidades" class="max-w-6xl mx-auto py-16 px-6">
+    <h2 class="text-3xl font-black mb-8">Mis habilidades</h2>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-4xl">🌐</div>
+        <h3 class="font-bold text-xl mt-3">HTML</h3>
+        <p class="text-gray-400 mt-2">Estructura de páginas web.</p>
+      </div>
+
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-4xl">🎨</div>
+        <h3 class="font-bold text-xl mt-3">Tailwind CSS</h3>
+        <p class="text-gray-400 mt-2">Diseño moderno y adaptable.</p>
+      </div>
+
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-4xl">⚙️</div>
+        <h3 class="font-bold text-xl mt-3">JavaScript</h3>
+        <p class="text-gray-400 mt-2">Funciones e interactividad.</p>
+      </div>
+
+      <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl">
+        <div class="text-4xl">💻</div>
+        <h3 class="font-bold text-xl mt-3">Programación</h3>
+        <p class="text-gray-400 mt-2">Lógica y resolución de problemas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="bg-slate-900 py-16 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-black mb-8">Mis proyectos</h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <article class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
+          <img class="w-full h-44 object-cover"
+            src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80"
+            alt="Paisaje turístico">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Página de turismo</h3>
+            <p class="text-gray-400 mt-2">Sitio web para descubrir destinos turísticos.</p>
+          </div>
+        </article>
+
+        <article class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
+          <img class="w-full h-44 object-cover"
+            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=600&q=80"
+            alt="Compras por internet">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Tienda en línea</h3>
+            <p class="text-gray-400 mt-2">Catálogo de productos y carrito de compras.</p>
+          </div>
+        </article>
+
+        <article class="bg-slate-950 rounded-xl overflow-hidden border border-slate-800">
+          <img class="w-full h-44 object-cover"
+            src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=600&q=80"
+            alt="Alimentos frescos">
+          <div class="p-5">
+            <h3 class="text-xl font-bold">Tienda saludable</h3>
+            <p class="text-gray-400 mt-2">Catálogo de alimentos frescos.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="max-w-3xl mx-auto py-16 px-6 text-center">
+    <h2 class="text-3xl font-black">Contáctame</h2>
+    <p class="text-gray-400 mt-4">
+      ¿Tienes alguna idea o proyecto? Puedes escribirme.
+    </p>
+
+    <form id="formulario" class="bg-slate-900 p-6 rounded-xl mt-8 text-left">
+      <label for="nombre" class="block mb-2 font-semibold">Nombre</label>
+      <input id="nombre" type="text" required
+        class="w-full p-3 rounded-lg text-gray-900 mb-4"
+        placeholder="Tu nombre">
+
+      <label for="correo" class="block mb-2 font-semibold">Correo electrónico</label>
+      <input id="correo" type="email" required
+        class="w-full p-3 rounded-lg text-gray-900 mb-4"
+        placeholder="tu-correo@ejemplo.com">
+
+      <label for="mensaje" class="block mb-2 font-semibold">Mensaje</label>
+      <textarea id="mensaje" rows="4" required
+        class="w-full p-3 rounded-lg text-gray-900 mb-4"
+        placeholder="Escribe tu mensaje"></textarea>
+
+      <button type="submit"
+        class="bg-cyan-400 text-slate-950 p-3 rounded-lg w-full font-bold hover:bg-cyan-300">
+        Enviar mensaje
+      </button>
+
+      <p id="respuesta" class="mt-4 text-cyan-400"></p>
+    </form>
+  </section>
+
+  <footer class="bg-black text-gray-400 text-center p-5">
+    © 2026 Tu Nombre - Portafolio personal
+  </footer>
+
+  <script>
+    document.getElementById("formulario").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const nombre = document.getElementById("nombre").value;
+
+      document.getElementById("respuesta").textContent =
+        "Gracias, " + nombre + ". El formulario es una demostración y todavía no envía el mensaje.";
+    });
+  </script>
+
+</body>
+</html>
